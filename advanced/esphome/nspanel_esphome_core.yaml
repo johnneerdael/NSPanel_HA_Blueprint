@@ -18,6 +18,7 @@ substitutions:
 ##### ESPHOME CONFIGURATION #####
 esphome:
   name: ${device_name}
+  friendly_name: ${friendly}
   min_version: 2023.5.0
   platformio_options:
     build_flags:
